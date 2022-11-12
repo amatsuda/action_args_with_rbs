@@ -3,6 +3,10 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 gem "rails", "~> 7.0.4"
 
+gem 'action_args'
+gem 'rbs_rails'
+gem 'steep'
+
 gem "sprockets-rails"
 
 gem "sqlite3", "~> 1.4"
