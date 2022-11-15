@@ -29,6 +29,6 @@
 target :app do
   signature 'sig'
 
-  check 'app'
+  # check 'app'
   library 'rbs'
 end
