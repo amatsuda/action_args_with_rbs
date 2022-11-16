@@ -86,6 +86,10 @@ gems:
     revision: 0a45b6d56b0e1b089731f5eb007912a7c36be121
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
+- name: io-console
+  version: '0'
+  source:
+    type: stdlib
 - name: json
   version: '0'
   source:
@@ -170,10 +174,6 @@ gems:
   version: '0'
   source:
     type: stdlib
-- name: steep
-  version: 1.2.1
-  source:
-    type: rubygems
 - name: strscan
   version: '0'
   source:
